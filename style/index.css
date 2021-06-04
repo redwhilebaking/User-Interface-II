@@ -48,30 +48,71 @@ table {
 	border-spacing: 0;
 }
 
-/*General Styles*/
-html{
-    font-size:62.5%;
-}
-body{
-    font-size:1.8rem;
-    color:#4f4f4f;
-    line-height:1.5;
-    font-family: 'PT Sans', sans-serif;
-}
-h1, h2, h3{
-    font-family: 'Nunito', sans-serif;
-}
-h1{
-    font-size:5rem;
-}
-h2{
-    font-size:3.5rem;
-}
-section{
-    padding:4% 0;
-}
 a{
     text-decoration:none;
-    color:#4f4f4f;
+    color:#030303;
+	
 }
 
+nav{
+    display:flex;
+	align-self: flex-start;
+
+}
+.logo{
+    width:70%;
+    display:flex;
+    
+}
+.logo img{
+    width:70%;
+
+}
+.link{
+    width:35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+	font-size: 3em;
+	
+}
+h2{
+font-size: 2.8em;
+margin-left: 30%;
+text-align: left;
+;
+}
+h3{
+	font-size: 2.0em;
+	margin-left: 35%;
+	text-align: left;
+}
+
+
+
+	
+.logo {
+	  height:75vh;
+	  width:70%;
+	  float: left;
+ 
+	}
+	p {
+	  text-align: left;
+	  font-size: 2em;
+	  width:max-content;
+	}
+	
+
+	body {background-color: grey;}
+
+
+	
+	
+	
+	
+	
+	
+}
